@@ -5,67 +5,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<link rel="stylesheet" href="estilo/estilos.css">
-<script src="vista/js/signup.js"></script>
+  <link rel="stylesheet" href="estilo/cssregister.css">
+  <!-- <script src="https://kit.fontawesome.com/f2f3e69293.js"></script> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 </head>
-
 <body>
-
-
-    <nav class="navbar m-menu navbar-default navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="vista/inicio_vista.html"><img src="vista/img/logo.png" alt=""></a>
-            </div>
-
-    </nav>
-
-    <div id="logreg-forms">
-        <form class="form-signin">
-            <h1 class="h3 mb-3 font-weight-normal" style="text-align: center">Inicio de Sesión</h1>
-            <div class="input-group">
-              <input type="email" id="inputEmail" class="form-control" placeholder="Correo Electrónico" required="" autofocus="">
-            </div>
-
-            <div class="input-group">
-              <input type="password" id="inputPassword" class="form-control" placeholder="Contraseña" required="">
-            </div>
-
-            <div class="input-group">
-              <button class=" btn-primary btn btn-md btn-rounded btn-block form-control submit" type="submit"><i class="fas fa-sign-in-alt"></i>Iniciar Sesión</button>
-            </div>
-
-            <a href="#" id="forgot_pswd">Olvidaste tu contraseña?</a>
-            <hr>
-            <button class="btn btn-primary btn-block" type="button" id="btn-signup"><i class="fas fa-user-plus"></i>Registrate</button>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-xl-9 mx-auto">
+        <div class="card card-signin flex-row my-5">
+          <div class="card-body">
+            <h5 class="card-title text-center">Inicio de Sesión</h5>
+            <form class="form-signin">
+              <div class="form-label-group">
+                <input type="text" id="inputUserame" class="form-control" placeholder="Username" required autofocus>
+                <label for="inputUserame">Nombre de Usuario</label>
+              </div>
+              
+              <div class="form-label-group">
+                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required>
+                <label for="inputEmail">Contraseña</label>
+              </div>
+              
+              <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Iniciar Sesión</button>
+              <a class="d-block text-center mt-2 small" href="vista/registro_vista.html">Registrarme</a>
             </form>
-
-            <form action="#" class="form-reset">
-                <input type="email" id="resetEmail" class="form-control" placeholder="Correo Electrónico" required="" autofocus="">
-                <button class="btn btn-primary btn-block" type="submit">Reestablecer contraseña</button>
-                <a href="#" id="cancel_reset"><i class="fas fa-angle-left"></i>Volver</a>
-            </form>
-
-            <form action="#" class="form-signup">
-
-                <h1 class="h3 mb-3 font-weight-normal" style="text-align: center">Registro</h1>
-                <input type="text" id="user-name" class="form-control" placeholder="Nombre Completo" required="" autofocus="">
-                <input type="email" id="user-email" class="form-control" placeholder="Correo Electrónico" required autofocus="">
-                <input type="password" id="user-pass" class="form-control" placeholder="Contraseña" required autofocus="">
-                <input type="password" id="user-repeatpass" class="form-control" placeholder="Confirmar Contraseña" required autofocus="">
-
-<div class="input-group">
-  <button class="btn btn-primary btn-md btn-block submit" type="submit"><i class="fas fa-user-plus"></i>Crear Cuenta</button>
-</div>
-                <a href="#" id="cancel_signup"><i class="fa fa-angle-left"></i> Back</a>
-            </form>
-            <br>
-
+          </div>
+          <div class="card-img-right d-none d-md-flex">
+              <!-- Background image for card set in CSS! -->
+          </div>
+        </div>
+      </div>
     </div>
-    
-  </body>
-
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+</body>
 </html>

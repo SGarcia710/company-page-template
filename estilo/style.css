@@ -321,7 +321,7 @@ Shortcode Content
         }
 
     .navbar-default {
-        background    : #333333 !important;
+        background    : #353b48 !important;
         padding       : 10px 0;
         border-bottom : none;
         }
@@ -338,7 +338,7 @@ Shortcode Content
         }
 
     .sticky-nav.navbar-default {
-        background-color : #333333;
+        background-color : #353b48;
         padding          : 15px 0;
         }
 
@@ -1039,13 +1039,13 @@ Team
     Page Title
 ----------------------------------------------- */
 .single-page-title-nosotros {
-    background            : url(../vista/img/img-page-title.jpg) no-repeat bottom;
+    background            : url(../vista/img/us-2.jpg) no-repeat bottom;
     }
 .single-page-title-productos {
-    background            : url(../vista/img/img-page-title-productos.jpg) no-repeat bottom;
+    background            : url(../vista/img/us-1.jpg) no-repeat center;
     }
 .single-page-title-clientes {
-    background            : url(../vista/img/img-page-title-clientes.jpg) no-repeat bottom;
+    background            : url(../vista/img/members.jpg) no-repeat top;
     }
 .single-page-title {
     background-size       : cover;
@@ -1407,7 +1407,7 @@ service-icon-style
     Footer
 ----------------------------------------------- */
 .footer {
-    background : #313131;
+    background : #353b48;
     }
 
 .footer .footer-block {
